@@ -1,0 +1,7 @@
+tracker_store:
+  type: SQL
+  dialect: "sqlite"
+  db: "chat_history.db"
+
+action_endpoint:
+  url: "http://localhost:5055/webhook"
